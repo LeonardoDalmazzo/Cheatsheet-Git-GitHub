@@ -138,3 +138,5 @@ git push --force
 - [Guia rápido do Vim (HostGator)](https://www.hostgator.com.br/blog/como-usar-o-editor-de-texto-vim-do-linux/) – Introdução ao editor Vim, atalhos básicos e dicas de uso.  
 
 - [Hostinger - Comandos Git](https://www.hostinger.com/br/tutoriais/comandos-git) – Lista completa de comandos básicos do Git, usado para referência e consulta rápida.
+
+## ⚡ Atalhos de Produtividade
