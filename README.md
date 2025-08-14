@@ -140,3 +140,13 @@ git push --force
 - [Hostinger - Comandos Git](https://www.hostinger.com/br/tutoriais/comandos-git) – Lista completa de comandos básicos do Git, usado para referência e consulta rápida.
 
 ## ⚡ Atalhos de Produtividade
+
+### 📄 Edição de Código (VS Code)
+- `SHIFT + ↓ / ↑` → Seleciona linhas para baixo/cima  
+- `ALT + ↓ / ↑` → Move a(s) linha(s) selecionada(s) para baixo/cima  
+- `SHIFT + ALT + ↓ / ↑` → Duplica a(s) linha(s) selecionada(s)  
+- `CTRL + X` → Recorta a linha inteira (mesmo sem selecionar)  
+- `CTRL + C` → Copia a linha inteira (mesmo sem selecionar)  
+- `CTRL + SHIFT + K` → Deleta a linha atual  
+- `CTRL + /` → Comenta/descomenta a linha  
+- `SHIFT + ALT + A` → Comentário em bloco (`/* ... */`) 
