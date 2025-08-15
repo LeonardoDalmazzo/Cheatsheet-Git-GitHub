@@ -149,4 +149,14 @@ git push --force
 - `CTRL + C` → Copia a linha inteira (mesmo sem selecionar)  
 - `CTRL + SHIFT + K` → Deleta a linha atual  
 - `CTRL + /` → Comenta/descomenta a linha  
-- `SHIFT + ALT + A` → Comentário em bloco (`/* ... */`) 
+- `SHIFT + ALT + A` → Comentário em bloco (`/* ... */`)
+
+### 🔍 Navegação e Busca (VS Code)
+- `CTRL + F` → Buscar no arquivo atual  
+- `CTRL + H` → Substituir no arquivo atual  
+- `CTRL + SHIFT + H` → Substituir em múltiplos arquivos  
+- `F12` → Ir para definição  
+- `ALT + ← / →` → Voltar/avançar na navegação  
+- `CTRL + P` → Abrir rapidamente arquivos do projeto  
+- `CTRL + SHIFT + O` → Navegar entre símbolos do arquivo atual  
+- `CTRL + SHIFT + P` → Paleta de comandos
