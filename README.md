@@ -62,7 +62,6 @@ C   → Copied      # arquivo copiado
 ??  → Untracked   # equivalente a U (quando roda git status)
 ```
 
-
 ### 👉 Exemplos no VS Code:
 
 U = arquivo novo não rastreado
@@ -139,6 +138,8 @@ git push --force
 
 - [Hostinger - Comandos Git](https://www.hostinger.com/br/tutoriais/comandos-git) – Lista completa de comandos básicos do Git, usado para referência e consulta rápida.
 
+---
+
 ## ⚡ Atalhos de Produtividade
 
 ### 📄 Edição de Código (VS Code)
@@ -193,3 +194,44 @@ git push --force
 - `CTRL + L` → Limpar a tela (mesmo que `clear`)  
 - `CTRL + C` → Cancelar o comando atual  
 - `CTRL + D` → Sair do terminal  
+
+---
+
+## 🔹 Tabelas de Resumo
+
+#### 🔹 Terminal no VS Code
+| Atalho     | Ação                                                               |
+| ---------- | ------------------------------------------------------------------ |
+| `Ctrl + '` | Abre/fecha **Terminal integrado**                                  |
+| `Ctrl + J` | Abre/fecha **painel inferior** (Terminal, Problemas, Saída, Debug) |
+
+#### 🔹 Git – CLI
+| Comando                            | Ação                          |
+| ---------------------------------- | ----------------------------- |
+| `git init`                         | Inicia repositório local      |
+| `git clone URL`                    | Clona repositório remoto      |
+| `git status`                       | Mostra estado dos arquivos    |
+| `git add arquivo.txt`              | Adiciona arquivo ao stage     |
+| `git add .`                        | Adiciona todos os arquivos    |
+| `git restore --staged arquivo.txt` | Remove arquivo do stage       |
+| `git restore --staged .`           | Remove todos do stage         |
+| `git commit -m "mensagem"`         | Cria commit                   |
+| `git log --oneline --graph --all`  | Histórico simplificado        |
+| `git diff`                         | Diferenças não staged         |
+| `git diff --staged`                | Diferenças staged             |
+| `git push origin main`             | Envia para repositório remoto |
+| `git pull`                         | Atualiza do remoto            |
+| `git branch`                       | Lista branches                |
+| `git checkout -b nova-branch`      | Cria e troca de branch        |
+| `git merge branch`                 | Faz merge                     |
+
+#### 🔹 Git – VS Code
+| Atalho             | Ação                            |
+| ------------------ | ------------------------------- |
+| `Ctrl + Shift + G` | Abre o **Source Control** (Git) |
+| `U` (Untracked)    | Arquivo novo, não versionado    |
+| `A` (Added)        | Arquivo adicionado ao stage     |
+| `M` (Modified)     | Arquivo modificado              |
+| `D` (Deleted)      | Arquivo excluído                |
+| `R` (Renamed)      | Arquivo renomeado               |
+| `C` (Conflicted)   | Arquivo em conflito             |
