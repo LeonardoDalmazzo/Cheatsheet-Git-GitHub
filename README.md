@@ -160,3 +160,11 @@ git push --force
 - `CTRL + P` → Abrir rapidamente arquivos do projeto  
 - `CTRL + SHIFT + O` → Navegar entre símbolos do arquivo atual  
 - `CTRL + SHIFT + P` → Paleta de comandos
+
+### 🖥️ Janela e Multitarefas (VS Code)
+- `CTRL + B` → Mostrar/ocultar sidebar  
+- `CTRL + \` → Dividir editor em painéis  
+- `CTRL + 1 / 2 / 3` → Focar em cada coluna do editor  
+- `CTRL + TAB` → Alternar entre arquivos recentes  
+- `CTRL + W` → Fechar editor atual  
+- `CTRL + K Z` → Zen Mode  
