@@ -168,3 +168,13 @@ git push --force
 - `CTRL + TAB` → Alternar entre arquivos recentes  
 - `CTRL + W` → Fechar editor atual  
 - `CTRL + K Z` → Zen Mode  
+
+### 🌱 Git no VS Code
+- `CTRL + SHIFT + G` → Abrir **Source Control**  
+- `CTRL + SHIFT + G G` → Commit rápido  
+- `CTRL + SHIFT + G P` → Push para o remoto  
+- `CTRL + SHIFT + G U` → Pull/Sync com o remoto  
+- `CTRL + SHIFT + '` → Novo terminal integrado  
+- `CTRL + SHIFT + ~` → Alternar entre terminais integrados  
+- `CTRL + SHIFT + C` → Abrir terminal externo na pasta do projeto  
+- `CTRL + SHIFT + E` → Ir para Explorer (arquivos) 
