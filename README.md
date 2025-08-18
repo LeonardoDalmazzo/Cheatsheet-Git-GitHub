@@ -177,4 +177,19 @@ git push --force
 - `CTRL + SHIFT + '` → Novo terminal integrado  
 - `CTRL + SHIFT + ~` → Alternar entre terminais integrados  
 - `CTRL + SHIFT + C` → Abrir terminal externo na pasta do projeto  
-- `CTRL + SHIFT + E` → Ir para Explorer (arquivos) 
+- `CTRL + SHIFT + E` → Ir para Explorer (arquivos)
+
+### 🖥️ Atalhos de Terminal / CLI
+- `↑ / ↓` → Navegar pelo histórico de comandos  
+- `!!` → Repetir último comando  
+- `!git` → Reexecutar último comando que começa com `git`  
+- `CTRL + R` → Buscar por comandos anteriores (reverse search)  
+- `TAB` → Autocompletar nome de comando/arquivo/branch  
+- `CTRL + A` → Ir para o início da linha  
+- `CTRL + E` → Ir para o final da linha  
+- `CTRL + U` → Apagar da posição atual até o início da linha  
+- `CTRL + K` → Apagar da posição atual até o fim da linha  
+- `CTRL + W` → Apagar a palavra anterior  
+- `CTRL + L` → Limpar a tela (mesmo que `clear`)  
+- `CTRL + C` → Cancelar o comando atual  
+- `CTRL + D` → Sair do terminal  
