@@ -30,3 +30,23 @@ git push origin feature/nome-da-feature
 git checkout main
 git pull origin main
 ```
+
+---
+
+## 📝 Padrões de Commit (Conventional Commits)
+
+- feat: ➝ nova funcionalidade
+
+- fix: ➝ correção de bug
+
+- chore: ➝ manutenção/infraestrutura
+
+- docs: ➝ alterações na documentação
+
+- refactor: ➝ refatoração de código
+
+- test: ➝ adição/alteração de testes
+
+[**🔗 Conventional Commits - v1.0.0-beta.4**](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/#especifica%c3%a7%c3%a3o)
+
+---
