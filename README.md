@@ -1,33 +1,32 @@
-# 📑 Cheatsheet Git & GitHub
+# 📘 Guia Pessoal de Git & GitHub
 
-“manual” de Git & GitHub pra você usar como referência rápida.
+Este é um guia rápido de comandos, boas práticas e atalhos para usar no dia a dia com **Git** e **GitHub**.  
+Feito para consultas rápidas 🚀
 
 ---
 
-## 🔹 Fluxo básico com boas práticas
+## 📑 Fluxo de Trabalho Padrão
 
-```
-
-# Garantir main atualizada
+```bash
+# Garantir que a branch main está atualizada
 git checkout main
 git pull origin main
 
-# Criar branch nova (feature/fix/hotfix)
+# Criar e entrar em uma branch nova
 git checkout -b feature/nome-da-feature
 
-# Fazer alterações e salvar
+# Adicionar mudanças
 git add .
+
+# Commit com mensagem clara (Conventional Commits)
 git commit -m "feat: descrição curta e objetiva"
 
 # Subir branch
 git push origin feature/nome-da-feature
 
 # Abrir PR no GitHub → revisar → merge
+
 # Atualizar local depois do merge
 git checkout main
 git pull origin main
-
 ```
-
----
-
