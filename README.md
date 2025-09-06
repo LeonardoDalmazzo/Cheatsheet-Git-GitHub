@@ -72,3 +72,12 @@ A = arquivo adicionado (git add)
 M = arquivo já rastreado que foi modificado
 
 ---
+
+## 🔄 Desfazendo git add
+
+```bash
+git restore --staged arquivo.txt   # remove 1 arquivo do stage
+git restore --staged .             # remove todos do stage
+```
+
+---
