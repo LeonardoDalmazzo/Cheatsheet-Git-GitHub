@@ -81,3 +81,26 @@ git restore --staged .             # remove todos do stage
 ```
 
 ---
+
+## ✏️ Editando Mensagens de Commit
+
+#### Último commit (antes do push):
+```bash
+git commit --amend
+```
+
+#### Commits antigos (antes do push):
+```bash
+git rebase -i HEAD~3   # últimos 3 commits
+# troque 'pick' por 'reword' nos commits desejados
+```
+
+#### Depois do push (⚠️ use com cuidado):
+```bash
+git commit --amend
+git push --force
+```
+
+[**🔗 StackOverflow - editar mensagens de commit**](https://pt.stackoverflow.com/questions/61429/como-editar-uma-mensagem-de-commit-incorreta-no-git)
+
+---
