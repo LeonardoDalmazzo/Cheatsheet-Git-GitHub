@@ -50,3 +50,25 @@ git pull origin main
 [**🔗 Conventional Commits - v1.0.0-beta.4**](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/#especifica%c3%a7%c3%a3o)
 
 ---
+
+## 📂 Status dos Arquivos no Git (VS Code & Terminal)
+```bash
+U   → Untracked   # arquivo novo, ainda não adicionado
+A   → Added       # arquivo adicionado ao stage (git add)
+M   → Modified    # arquivo modificado
+D   → Deleted     # arquivo removido
+R   → Renamed     # arquivo renomeado
+C   → Copied      # arquivo copiado
+??  → Untracked   # equivalente a U (quando roda git status)
+```
+
+
+### 👉 Exemplos no VS Code:
+
+U = arquivo novo não rastreado
+
+A = arquivo adicionado (git add)
+
+M = arquivo já rastreado que foi modificado
+
+---
