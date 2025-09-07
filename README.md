@@ -104,3 +104,25 @@ git push --force
 [**🔗 StackOverflow - editar mensagens de commit**](https://pt.stackoverflow.com/questions/61429/como-editar-uma-mensagem-de-commit-incorreta-no-git)
 
 ---
+
+## 💡 Dicas Extras
+
+#### Preview do README no VS Code:
+CTRL + SHIFT + V
+
+#### Atalhos do Vim (se abrir acidentalmente):
+
+- i → inserir texto
+
+- ESC → sair do modo edição
+
+- :wq → salvar e sair
+
+- :q! → sair sem salvar
+
+[**🔗 Guia rápido do Vim**](https://www.hostgator.com.br/blog/como-usar-o-editor-de-texto-vim-do-linux/)
+
+#### Comandos básicos do Git:
+[**🔗 Hostinger - Comandos Git**](https://www.hostinger.com/br/tutoriais/comandos-git)
+
+---
