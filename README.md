@@ -126,3 +126,13 @@ CTRL + SHIFT + V
 [**🔗 Hostinger - Comandos Git**](https://www.hostinger.com/br/tutoriais/comandos-git)
 
 ---
+
+## 📚 Referências
+
+- [Conventional Commits - v1.0.0-beta.4](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/#especificacao) – Especificação oficial de Conventional Commits, usado como guia para mensagens de commit claras.  
+
+- [StackOverflow - Editar mensagens de commit](https://pt.stackoverflow.com/questions/61429/como-editar-uma-mensagem-de-commit-incorreta-no-git) – Tutorial passo a passo sobre como alterar mensagens de commits locais e remotos.  
+
+- [Guia rápido do Vim (HostGator)](https://www.hostgator.com.br/blog/como-usar-o-editor-de-texto-vim-do-linux/) – Introdução ao editor Vim, atalhos básicos e dicas de uso.  
+
+- [Hostinger - Comandos Git](https://www.hostinger.com/br/tutoriais/comandos-git) – Lista completa de comandos básicos do Git, usado para referência e consulta rápida.
