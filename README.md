@@ -108,8 +108,10 @@ git push --force
 ## 💡 Dicas Extras
 
 #### Preview do README no VS Code:
-CTRL + SHIFT + V
-
+- `CTRL + SHIFT + V` → Preview de Markdown (README, docs, etc.)  
+- `CTRL + SHIFT + L` → Seleciona todas as ocorrências da seleção atual  
+- `CTRL + D` → Seleciona próxima ocorrência da palavra selecionada  
+- `ALT + Click` → Criar múltiplos cursores  
 #### Atalhos do Vim (se abrir acidentalmente):
 
 - i → inserir texto
