@@ -19,7 +19,7 @@ git checkout -b feature/nome-da-feature
 git add .
 
 # Commit com mensagem clara (Conventional Commits)
-git commit -m "feat: descrição curta e objetiva"
+git commit -m "feat: descrição curta e objetiva" -m "mais detalhes" #o 2º '-m " mais detalhes"' é opcional
 
 # Subir branch
 git push origin feature/nome-da-feature
