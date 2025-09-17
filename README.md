@@ -5,40 +5,26 @@ Feito para consultas rápidas 🚀
 
 ---
 
-## 📑 Fluxo de Trabalho Padrão
-
+## 📂 Status dos Arquivos no Git (VS Code & Terminal)
 ```bash
-# Garantir que a branch main está atualizada
-git checkout main
-git pull origin main
-
-# Criar e entrar em uma branch nova
-git checkout -b feature/nome-da-feature
-
-# Adicionar mudanças
-git add .
-
-# Commit com mensagem clara (Conventional Commits)
-git commit -m "feat: descrição curta e objetiva" -m "mais detalhes" #o 2º '-m " mais detalhes"' é opcional
-
-# Subir branch
-git push origin feature/nome-da-feature
-
-# Abrir PR no GitHub → revisar → merge
-
-# Atualizar local depois do merge
-git checkout main
-git pull origin main
-
-# Deletar branch local (após merge)
-git branch -d feature/nome-da-feature
-
-# Deletar branch local (force, sem merge)
-git branch -D feature/nome-da-feature
-
-# Deletar branch remota (no GitHub)
-git push origin --delete feature/nome-da-feature
+U   → Untracked   # arquivo novo, ainda não adicionado
+A   → Added       # arquivo adicionado ao stage (git add)
+M   → Modified    # arquivo modificado
+D   → Deleted     # arquivo removido
+R   → Renamed     # arquivo renomeado
+C   → Copied      # arquivo copiado
+??  → Untracked   # equivalente a U (quando roda git status)
 ```
+
+### 👉 Exemplos no VS Code:
+
+U = arquivo novo não rastreado
+
+A = arquivo adicionado (git add)
+
+M = arquivo já rastreado que foi modificado
+
+---
 
 ---
 
@@ -60,24 +46,35 @@ git push origin --delete feature/nome-da-feature
 
 ---
 
-## 📂 Status dos Arquivos no Git (VS Code & Terminal)
+## 📑 Fluxo de Trabalho Padrão
+
 ```bash
-U   → Untracked   # arquivo novo, ainda não adicionado
-A   → Added       # arquivo adicionado ao stage (git add)
-M   → Modified    # arquivo modificado
-D   → Deleted     # arquivo removido
-R   → Renamed     # arquivo renomeado
-C   → Copied      # arquivo copiado
-??  → Untracked   # equivalente a U (quando roda git status)
+# Garantir que a branch main está atualizada
+git checkout main
+git pull origin main
+
+# Criar e entrar em uma branch nova
+git checkout -b feature/nome-da-feature
+
+# Adicionar mudanças
+git add .
+
+# Commit com mensagem clara (Conventional Commits)
+git commit -m "feat: descrição curta e objetiva" -m "mais detalhes" 
+# o 2º '-m "mais detalhes"' é opcional
+
+# Subir branch
+git push origin feature/nome-da-feature
+
+# Abrir PR no GitHub → revisar → merge
+
+# Atualizar local depois do merge
+git checkout main
+git pull origin main
+
+# Deletar branch local (após merge)
+git branch -d feature/nome-da-feature
 ```
-
-### 👉 Exemplos no VS Code:
-
-U = arquivo novo não rastreado
-
-A = arquivo adicionado (git add)
-
-M = arquivo já rastreado que foi modificado
 
 ---
 
@@ -110,6 +107,25 @@ git push --force
 ```
 
 [**🔗 StackOverflow - editar mensagens de commit**](https://pt.stackoverflow.com/questions/61429/como-editar-uma-mensagem-de-commit-incorreta-no-git)
+
+---
+
+## 🗑️ Deletando Branches
+
+### Deletar branch local (após merge)
+```bash
+git branch -d feature/nome-da-feature
+```
+
+### Deletar branch local (force, sem merge)
+```bash
+git branch -D feature/nome-da-feature
+```
+
+### Deletar branch local (force, sem merge)
+```bash
+git push origin --delete feature/nome-da-feature
+```
 
 ---
 
