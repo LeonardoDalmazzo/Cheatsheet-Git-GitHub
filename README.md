@@ -29,6 +29,15 @@ git push origin feature/nome-da-feature
 # Atualizar local depois do merge
 git checkout main
 git pull origin main
+
+# Deletar branch local (após merge)
+git branch -d feature/nome-da-feature
+
+# Deletar branch local (force, sem merge)
+git branch -D feature/nome-da-feature
+
+# Deletar branch remota (no GitHub)
+git push origin --delete feature/nome-da-feature
 ```
 
 ---
