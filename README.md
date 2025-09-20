@@ -122,7 +122,7 @@ git branch -d feature/nome-da-feature
 git branch -D feature/nome-da-feature
 ```
 
-### Deletar branch local (force, sem merge)
+### Deletar branch remota (no GitHub)
 ```bash
 git push origin --delete feature/nome-da-feature
 ```
