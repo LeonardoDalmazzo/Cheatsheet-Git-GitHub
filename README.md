@@ -129,6 +129,34 @@ git push origin --delete feature/nome-da-feature
 
 ---
 
+## ✏️ Renomeando uma Branch
+
+### Renomeia a branch atual
+```bash
+git branch -m novo-nome-da-branch
+```
+#### Se você estiver em outra branch (local)
+##### Você pode renomear uma branch local sem precisar entrar nela.
+###### Renomeia 'nome-antigo' para 'novo-nome-da-branch'
+```bash
+git branch -m nome-antigo novo-nome-da-branch
+```
+### Renomeando uma branch remota (no GitHub)
+##### 1. Renomeie a branch local
+```bash
+git branch -m nome-antigo novo-nome-da-branch
+```
+#### 2. Envie a branch com o novo nome para o repositório remoto
+# (o '-u' define o rastreamento para a nova branch)
+git push origin -u novo-nome-da-branch
+
+#### 3. Delete a branch antiga no repositório remoto
+```bash
+git push origin --delete nome-antigo
+```
+
+---
+
 ## 💡 Dicas Extras
 
 #### Preview do README no VS Code:
