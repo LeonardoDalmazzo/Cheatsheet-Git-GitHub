@@ -30,17 +30,21 @@ M = arquivo já rastreado que foi modificado
 
 ## 📝 Padrões de Commit (Conventional Commits)
 
-- feat: ➝ nova funcionalidade
+- feat: (Feature) → Quando você adiciona uma nova funcionalidade (ex: "feat: add certifications carousel").
 
-- fix: ➝ correção de bug
+- fix: → Quando você corrige um bug (ex: "fix: broken link in footer").
 
-- chore: ➝ manutenção/infraestrutura
+- docs: → Apenas documentação (README, comentários).
 
-- docs: ➝ alterações na documentação
+- style: → Formatação, espaços, ponto e vírgula (nada que mude a lógica do código).
 
-- refactor: ➝ refatoração de código
+- refactor: → Refatoração de código. Não muda o comportamento final, mas melhora o código interno.
 
-- test: ➝ adição/alteração de testes
+- chore: → Tarefas de manutenção (atualizar dependências, configurar ferramentas).
+
+- Breaking Changes e Importância
+usar important!. No padrão oficial (Conventional Commits), para destacar algo muito importante ou que quebra compatibilidade, usamos uma exclamação depois do tipo:
+feat!: drop support for Node 12 (O ! indica uma mudança drástica/Breaking Change).
 
 [**🔗 Conventional Commits - v1.0.0-beta.4**](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/#especifica%c3%a7%c3%a3o)
 
@@ -147,8 +151,10 @@ git branch -m nome-antigo novo-nome-da-branch
 git branch -m nome-antigo novo-nome-da-branch
 ```
 #### 2. Envie a branch com o novo nome para o repositório remoto
-# (o '-u' define o rastreamento para a nova branch)
+##### (o '-u' define o rastreamento para a nova branch)
+```
 git push origin -u novo-nome-da-branch
+```
 
 #### 3. Delete a branch antiga no repositório remoto
 ```bash
