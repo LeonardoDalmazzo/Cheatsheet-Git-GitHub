@@ -3,10 +3,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
-    margin-bottom: 40px;
+    margin: 20px 0;
 }
 
 .cat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
@@ -16,7 +19,7 @@
     transition: all 0.3s ease;
     font-weight: bold;
     color: var(--heading-color);
-    border-left: 4px solid var(--primary-color);
+    border-left: 4px solid var(--primary-color);    
 }
 
 .cat-card:hover, .cat-card.active {

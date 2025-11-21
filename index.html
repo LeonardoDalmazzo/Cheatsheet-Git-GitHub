@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,41 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="components/NavMenu/NavMenu.css">
     <link rel="stylesheet" href="components/FAB-FloatingActionButton/FAB-FloatingActionButton.css">
-    <link rel="stylesheet" href="css/pkm-index.css">
+    <link rel="stylesheet" href="components/pkm-index/pkm-index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
     <div class="container">
         <header class="text-center">
-            <h1>Welcome to ADML</h1>
-            <p>Select an item from the menu to view more topics.</p>
+            <h2>Boas vindas ao meu Gerenciamento de Conhecimento Pessoal (Personal Knowledge Management)</h2>
+            <p>Utilize os filtros abaixo para ver somente os temas das categorias do seu interesse.</p>
         </header>
 
         <section class="category-grid mt-20">
             <div class="cat-card active" data-filter="all">Todos</div>
-            <div class="cat-card" data-filter="favoritos">Favoritos</div>
-            <div class="cat-card" data-filter="programação">Programação</div>
-            <div class="cat-card" data-filter="front-end">Front end</div>
-            <div class="cat-card" data-filter="back-end">Back end</div>
-            <div class="cat-card" data-filter="nivelamento">Nivelamento</div>
-            <div class="cat-card" data-filter="curiosidades">Curiosidades</div>
-            <div class="cat-card" data-filter="outros">Outros</div>
+            <div class="cat-card" data-filter="Linguagens de Programação">Linguagens de Programação</div>
+            <div class="cat-card" data-filter="Front-end">Front-end</div>
+            <div class="cat-card" data-filter="Back-end">Back-end</div>
+            <div class="cat-card" data-filter="Nivelamento">Nivelamento</div>
+            <div class="cat-card" data-filter="Curiosidades">Curiosidades</div>
+            <div class="cat-card" data-filter="Favoritos">Favoritos</div>
+            <div class="cat-card" data-filter="Outros">Outros</div>
         </section>
 
+        <div class="subtitulo text-center">
+            <h3>Temas</h3>
+            <p>Selecione um tema para visualizar seu conteúdo.</p>
+        </div>
+
         <section id="content-grid" class="grid-2">
-            
-            <div class="card" data-category="Programação">
+
+            <div class="card" data-category="programação, front end, back-end">
                 <h2>🚀 Git & GitHub</h2>
                 <p>Comandos essenciais, fluxo e commits.</p>
                 <a href="git.html" class="link-btn">Ver Cheatsheet →</a>
@@ -44,6 +53,8 @@
 
     <script src="components/NavMenu/NavMenu.js"></script>
     <script src="components/FAB-FloatingActionButton/FAB-FloatingActionButton.js"></script>
+    <script src="components/pkm-index/pkm-index.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
