@@ -60,11 +60,7 @@ class Navbar {
         mobileNav.id = 'mobile-nav';
 
         const cheatSheets = [
-            { name: 'Git & GitHub', href: 'git.html' },
-            { name: 'Vim', href: 'vim.html' },
-            { name: 'VS Code', href: 'vscode.html' },
-            { name: 'Visual Code', href: 'visualcode.html' },
-            { name: 'Google Sheets', href: 'sheets.html' }
+            { name: 'Git & GitHub', href: 'git.html' }
         ];
 
         // Also add Home/About/Contact to mobile nav for completeness on small screens
