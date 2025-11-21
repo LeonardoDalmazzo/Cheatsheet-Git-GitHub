@@ -20,7 +20,7 @@ class Navbar {
         const brand = document.createElement('a');
         brand.href = 'index.html';
         brand.className = 'navbar-brand';
-        brand.textContent = 'Cheatsheet-Git-GitHub';
+        brand.textContent = 'ADML: PKM';
         navElement.appendChild(brand);
 
         // Desktop Menu (Home, About, Contact)
