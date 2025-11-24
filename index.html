@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,14 +9,12 @@
     <link rel="stylesheet" href="components/NavMenu/NavMenu.css">
     <link rel="stylesheet" href="components/FAB-FloatingActionButton/FAB-FloatingActionButton.css">
     <link rel="stylesheet" href="components/pkm-index/pkm-index.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -29,13 +27,17 @@
 
         <section class="category-grid mt-20">
             <div class="cat-card active" data-filter="all">Todos</div>
-            <div class="cat-card" data-filter="Linguagens de Programação">Linguagens de Programação</div>
+            <div class="cat-card" data-filter="Programação"><i class="fa-solid fa-code"></i>Programação<i class="fa-solid fa-code"></i></div>
             <div class="cat-card" data-filter="Front-end">Front-end</div>
             <div class="cat-card" data-filter="Back-end">Back-end</div>
+            <div class="cat-card" data-filter="Design">Design</div>
+            <div class="cat-card" data-filter="IA">IA</div>
+            <div class="cat-card" data-filter="Ferramentas">Ferramentas</div>
+            <div class="cat-card" data-filter="Sites">Sites Úteis</div>
             <div class="cat-card" data-filter="Nivelamento">Nivelamento</div>
+            <div class="cat-card" data-filter="IDE">IDE</div>
             <div class="cat-card" data-filter="Curiosidades">Curiosidades</div>
             <div class="cat-card" data-filter="Favoritos">Favoritos</div>
-            <div class="cat-card" data-filter="Ferramentas">Ferramentas</div>
             <div class="cat-card" data-filter="Outros">Outros</div>
         </section>
 
@@ -46,12 +48,17 @@
 
         <section id="content-grid" class="grid-2">
 
-            <div class="card" data-category="Ferramentas">
-                <h2><i class="fa-brands fa-git-alt"></i>Git →</i><i class="fa-brands fa-github"></i>GitHub</h2>
+            <div class="card" data-category="Programação, Ferramentas">
+                <h2><i class="fa-brands fa-git-alt" style="color: #f05032;"></i>Git →</i><i class="fa-brands fa-github"></i>GitHub</h2>
                 <p>Comandos essenciais, fluxo e commits.</p>
-                <a href="git.html" class="link-btn">Ver Cheatsheet →</a>
+                <a href="git_github.html" class="link-btn">Ver Cheatsheet →</a>
             </div>
 
+            <div class="card" data-category="IDE, Ferramentas">
+                <h2><img class="img-svg" src="assets/img/vscode.svg" alt="ícone do vscode"> VS Code</h2>
+                <p>Atalhos de produtividade e navegação.</p>
+                <a href="vs_code.html" class="link-btn">Ver Cheatsheet →</a>
+            </div>
         </section>
     </div>
 
