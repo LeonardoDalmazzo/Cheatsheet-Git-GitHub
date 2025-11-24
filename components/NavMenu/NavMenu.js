@@ -26,7 +26,7 @@ class Navbar {
         // Desktop Menu (Home, About, Contact)
         const desktopMenu = document.createElement('div');
         desktopMenu.className = 'navbar-menu';
-        
+
         const mainLinks = [
             { name: 'Início', href: 'index.html' },
             { name: 'Sobre', href: 'about.html' },
@@ -60,7 +60,8 @@ class Navbar {
         mobileNav.id = 'mobile-nav';
 
         const cheatSheets = [
-            { name: 'Git & GitHub', href: 'git.html' }
+            { name: 'Git & GitHub', href: 'git_github.html' },
+            { name: 'VS Code', href: 'vs_code.html' }
         ];
 
         // Also add Home/About/Contact to mobile nav for completeness on small screens
@@ -107,7 +108,7 @@ class Navbar {
     highlightActive() {
         const currentPath = window.location.pathname.split('/').pop() || 'index.html';
         const links = document.querySelectorAll('.navbar-menu a, .mobile-nav a');
-        
+
         links.forEach(link => {
             if (link.getAttribute('href') === currentPath) {
                 link.classList.add('active');
