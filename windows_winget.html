@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="components/NavMenu/NavMenu.css">
     <link rel="stylesheet" href="components/FAB-FloatingActionButton/FAB-FloatingActionButton.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -25,7 +29,8 @@
             <p>Atalhos de sistema, gerenciamento avançado e automação</p>
         </header>
 
-        <nav style="margin-bottom: 40px; padding: 15px; background: var(--card-bg); border-radius: var(--border-radius); border: 1px solid var(--border-color);">
+        <nav
+            style="margin-bottom: 40px; padding: 15px; background: var(--card-bg); border-radius: var(--border-radius); border: 1px solid var(--border-color);">
             <ul style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
                 <li><a href="#system">Sistema</a></li>
                 <li><a href="#winget">Winget (CLI)</a></li>
@@ -55,7 +60,8 @@
                         <ul class="shortcut-list">
                             <li><kbd>Win</kbd> + <kbd>X</kbd> <span>Menu Link Rápido (Admin, Gerenciador)</span></li>
                             <li><kbd>Win</kbd> + <kbd>R</kbd> <span>Executar comando (Run)</span></li>
-                            <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>ESC</kbd> <span>Gerenciador de Tarefas</span></li>
+                            <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>ESC</kbd> <span>Gerenciador de Tarefas</span>
+                            </li>
                             <li><kbd>Win</kbd> + <kbd>A</kbd> <span>Central de Ações (WiFi, BT)</span></li>
                             <li><kbd>Win</kbd> + <kbd>K</kbd> <span>Conectar (Cast/Monitor sem fio)</span></li>
                         </ul>
@@ -66,8 +72,9 @@
             <section id="winget">
                 <h2><i class="fa-solid fa-terminal"></i> Winget (Gerenciador de Pacotes)</h2>
                 <div class="card">
-                    <p style="margin-bottom: 15px;">Instale, atualize e gerencie softwares direto pelo terminal (PowerShell ou CMD), sem precisar baixar instaladores manualmente.</p>
-                    
+                    <p style="margin-bottom: 15px;">Instale, atualize e gerencie softwares direto pelo terminal
+                        (PowerShell ou CMD), sem precisar baixar instaladores manualmente.</p>
+
                     <div class="code-block">
                         <div class="code-header">PowerShell / CMD</div>
                         <pre><code class="language-bash"># 1. Buscar um programa (Ex: Chrome, Discord, VS Code)
@@ -87,7 +94,8 @@ winget uninstall "nome do programa"</code></pre>
                     </div>
 
                     <div class="alert">
-                        <strong>Dica Pro:</strong> Use o comando <code>winget upgrade --all</code> semanalmente para manter todos os seus softwares atualizados automaticamente.
+                        <strong>Dica Pro:</strong> Use o comando <code>winget upgrade --all</code> semanalmente para
+                        manter todos os seus softwares atualizados automaticamente.
                     </div>
                 </div>
             </section>
@@ -104,8 +112,10 @@ winget uninstall "nome do programa"</code></pre>
                         </ul>
                         <ul class="shortcut-list">
                             <li><kbd>Win</kbd> + <kbd>M</kbd> <span>Minimizar todas as janelas</span></li>
-                            <li><kbd>Win</kbd> + <kbd>SHIFT</kbd> + <kbd>M</kbd> <span>Restaurar janelas minimizadas</span></li>
-                            <li><kbd>Win</kbd> + <kbd>SHIFT</kbd> + <kbd>← / →</kbd> <span>Mover janela para outro monitor</span></li>
+                            <li><kbd>Win</kbd> + <kbd>SHIFT</kbd> + <kbd>M</kbd> <span>Restaurar janelas
+                                    minimizadas</span></li>
+                            <li><kbd>Win</kbd> + <kbd>SHIFT</kbd> + <kbd>← / →</kbd> <span>Mover janela para outro
+                                    monitor</span></li>
                             <li><kbd>ALT</kbd> + <kbd>TAB</kbd> <span>Alternar entre janelas recentes</span></li>
                         </ul>
                     </div>
@@ -120,18 +130,23 @@ winget uninstall "nome do programa"</code></pre>
                         <p>Organize trabalho e lazer em espaços separados.</p>
                         <ul class="shortcut-list mt-20">
                             <li><kbd>Win</kbd> + <kbd>TAB</kbd> <span>Visão de Tarefas (Timeline)</span></li>
-                            <li><kbd>Win</kbd> + <kbd>CTRL</kbd> + <kbd>D</kbd> <span>Criar nova Área de Trabalho</span></li>
-                            <li><kbd>Win</kbd> + <kbd>CTRL</kbd> + <kbd>F4</kbd> <span>Fechar Área de Trabalho atual</span></li>
+                            <li><kbd>Win</kbd> + <kbd>CTRL</kbd> + <kbd>D</kbd> <span>Criar nova Área de Trabalho</span>
+                            </li>
+                            <li><kbd>Win</kbd> + <kbd>CTRL</kbd> + <kbd>F4</kbd> <span>Fechar Área de Trabalho
+                                    atual</span></li>
                         </ul>
                     </div>
                     <div class="card">
                         <h3>Alternância</h3>
                         <ul class="shortcut-list">
-                            <li><kbd>Win</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd> <span>Ir para Desktop anterior</span></li>
-                            <li><kbd>Win</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd> <span>Ir para Desktop seguinte</span></li>
+                            <li><kbd>Win</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd> <span>Ir para Desktop anterior</span>
+                            </li>
+                            <li><kbd>Win</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd> <span>Ir para Desktop seguinte</span>
+                            </li>
                         </ul>
                         <div class="alert mt-20">
-                            <strong>Dica:</strong> Você pode arrastar janelas entre desktops na tela do <kbd>Win</kbd> + <kbd>TAB</kbd>.
+                            <strong>Dica:</strong> Você pode arrastar janelas entre desktops na tela do <kbd>Win</kbd> +
+                            <kbd>TAB</kbd>.
                         </div>
                     </div>
                 </div>
