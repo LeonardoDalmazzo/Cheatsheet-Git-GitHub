@@ -32,7 +32,7 @@
 
 .fab-main.open {
     transform: rotate(45deg);
-    background-color: var(--warning-color);
+    background-color: var(--secondary-color);
 }
 
 .fab-option {

@@ -20,7 +20,7 @@ class Navbar {
         const brand = document.createElement('a');
         brand.href = 'index.html';
         brand.className = 'navbar-brand';
-        brand.textContent = 'Cheatsheet-Git-GitHub';
+        brand.textContent = 'ADML: PKM';
         navElement.appendChild(brand);
 
         // Desktop Menu (Home, About, Contact)
@@ -60,11 +60,7 @@ class Navbar {
         mobileNav.id = 'mobile-nav';
 
         const cheatSheets = [
-            { name: 'Git & GitHub', href: 'git.html' },
-            { name: 'Vim', href: 'vim.html' },
-            { name: 'VS Code', href: 'vscode.html' },
-            { name: 'Visual Code', href: 'visualcode.html' },
-            { name: 'Google Sheets', href: 'sheets.html' }
+            { name: 'Git & GitHub', href: 'git.html' }
         ];
 
         // Also add Home/About/Contact to mobile nav for completeness on small screens

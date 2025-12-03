@@ -4,8 +4,8 @@
     --font-code: 'Fira Code', monospace;
 
     /* Colors - Light Theme (Default) */
-    --primary-color: #007acc;
-    --secondary-color: #005a9e;
+    --primary-color: #ff0967;
+    --secondary-color: #f73f85;
     --bg-color: #ffffff;
     --text-color: #1f1f1f;
     --card-bg: #f3f3f3;
@@ -24,8 +24,8 @@
 }
 
 [data-theme="dark"] {
-    --primary-color: #3794ff;
-    --secondary-color: #007acc;
+    --primary-color: #ff0967;
+    --secondary-color: #f73f85;
     --bg-color: #121212;
     --text-color: #d4d4d4;
     --card-bg: #1e1e1e;

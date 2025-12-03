@@ -93,7 +93,9 @@ h2 { font-size: 1.5rem; margin-bottom: 0.8rem; border-bottom: 1px solid var(--bo
 
 .text-center { text-align: center; }
 .mt-20 { margin-top: 20px; }
-
+.subtitulo {
+    margin-bottom: 20px;
+}
 
 /* --- Migrated Content Styles --- */
 
