@@ -4,16 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheatsheet Git & GitHub - ADML PKM</title>
+    <title>Git & GitHub - ADML: PKM</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="components/NavMenu/NavMenu.css">
     <link rel="stylesheet" href="components/FAB-FloatingActionButton/FAB-FloatingActionButton.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -25,7 +29,8 @@
             <p>Guia focado em comandos, fluxo de trabalho e padrões</p>
         </header>
 
-        <nav style="margin-bottom: 40px; padding: 15px; background: var(--card-bg); border-radius: var(--border-radius); border: 1px solid var(--border-color);">
+        <nav
+            style="margin-bottom: 40px; padding: 15px; background: var(--card-bg); border-radius: var(--border-radius); border: 1px solid var(--border-color);">
             <ul style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
                 <li><a href="#status">Status</a></li>
                 <li><a href="#conventional">Conventional Commits</a></li>
@@ -53,18 +58,21 @@
             </section>
 
             <section id="conventional">
-                <h2><i class="fa-solid fa-pen-nib"></i> Conventional Commits</h2>
+                <h2><i class="fa-solid fa-code"></i> Conventional Commits</h2>
                 <div class="card">
                     <ul class="commit-types">
-                        <li><span class="tag feat">feat</span> Nova funcionalidade. <br><em>Ex: "feat: add login support"</em></li>
-                        <li><span class="tag fix">fix</span> Correção de bug. <br><em>Ex: "fix: header aligment on mobile"</em></li>
+                        <li><span class="tag feat">feat</span> Nova funcionalidade. <br><em>Ex: "feat: add login
+                                support"</em></li>
+                        <li><span class="tag fix">fix</span> Correção de bug. <br><em>Ex: "fix: header aligment on
+                                mobile"</em></li>
                         <li><span class="tag docs">docs</span> Apenas documentação.</li>
                         <li><span class="tag style">style</span> Formatação (espaços, ;), sem mudar lógica.</li>
                         <li><span class="tag refactor">refactor</span> Refatoração de código.</li>
                         <li><span class="tag chore">chore</span> Manutenção, configs de build, deps.</li>
                     </ul>
                     <div class="alert">
-                        <strong>Breaking Change (feat!):</strong> Use <code>!</code> para indicar mudanças que quebram compatibilidade. <br>
+                        <strong>Breaking Change (feat!):</strong> Use <code>!</code> para indicar mudanças que quebram
+                        compatibilidade. <br>
                         Ex: <code>feat!: drop support for API v1</code>
                     </div>
                 </div>
@@ -103,19 +111,19 @@ git branch -d feature/nova-funcionalidade</code></pre>
                 <h2><i class="fa-solid fa-rotate-left"></i> Correções e Desfazendo</h2>
                 <div class="grid-2">
                     <div class="card">
-                        <h3>Desfazer 'git add'</h3>
+                        <h3></i><i class="fa-solid fa-close"></i> Desfazer 'git add'</h3>
                         <pre><code>git restore --staged arquivo.txt
 git restore --staged .</code></pre>
                     </div>
                     <div class="card">
-                        <h3>Editar último commit</h3>
+                        <h3></i><i class="fa-solid fa-check"></i> Editar último commit</h3>
                         <p>Altera a mensagem ou adiciona arquivos esquecidos ao último commit (sem criar um novo).</p>
                         <pre><code>git add arquivo-esquecido.txt
 git commit --amend</code></pre>
                     </div>
                 </div>
                 <div class="card">
-                    <h3>Commits antigos</h3>
+                    <h3></i><i class="fa-solid fa-code-commit"></i> Commits antigos</h3>
                     <p>(antes do push):</p>
                     <pre><code>git rebase -i HEAD~3   # últimos 3 commits
 # troque 'pick' por 'reword' nos commits desejados</code></pre>
@@ -129,7 +137,7 @@ git push --force</code></pre>
                 <h2><i class="fa-solid fa-code-branch"></i> Gerenciamento de Branches</h2>
                 <div class="grid-2">
                     <div class="card">
-                        <h3>🗑️ Deletar</h3>
+                        <h3><i class="fa-solid fa-trash"></i> Deletar</h3>
                         <p><strong>Local (após merge):</strong></p>
                         <pre><code>git branch -d nome-branch</code></pre>
                         <p><strong>Local (forçado/sem merge):</strong></p>
@@ -138,7 +146,7 @@ git push --force</code></pre>
                         <pre><code>git push origin --delete nome-branch</code></pre>
                     </div>
                     <div class="card">
-                        <h3>✏️ Renomear</h3>
+                        <h3><i class="fa-solid fa-hashtag"></i> Renomear</h3>
                         <p><strong>Local:</strong></p>
                         <pre><code>git branch -m novo-nome</code></pre>
                         <p>Você pode renomear uma branch local sem precisar entrar nela.</p>
@@ -158,9 +166,12 @@ git push --force</code></pre>
                 <div class="card">
                     <ul class="shortcut-list">
                         <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>G</kbd> <span>Abrir Source Control</span></li>
-                        <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>G</kbd> <kbd>G</kbd> <span>Commit Rápido (Staged)</span></li>
-                        <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>G</kbd> <kbd>P</kbd> <span>Push para remoto</span></li>
-                        <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>G</kbd> <kbd>U</kbd> <span>Pull (Atualizar)</span></li>
+                        <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>G</kbd> <kbd>G</kbd> <span>Commit Rápido
+                                (Staged)</span></li>
+                        <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>G</kbd> <kbd>P</kbd> <span>Push para remoto</span>
+                        </li>
+                        <li><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>G</kbd> <kbd>U</kbd> <span>Pull (Atualizar)</span>
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -236,7 +247,7 @@ git push --force</code></pre>
     <script src="components/NavMenu/NavMenu.js"></script>
     <script src="components/FAB-FloatingActionButton/FAB-FloatingActionButton.js"></script>
     <script src="js/app.js"></script>
-    
+
 </body>
 
 </html>

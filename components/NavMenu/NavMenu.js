@@ -61,7 +61,8 @@ class Navbar {
 
         const cheatSheets = [
             { name: 'Git & GitHub', href: 'git_github.html' },
-            { name: 'VS Code', href: 'vs_code.html' }
+            { name: 'VS Code', href: 'vs_code.html' },
+            { name: 'Windows & Winget', href: 'windows_winget.html' }
         ];
 
         // Also add Home/About/Contact to mobile nav for completeness on small screens
